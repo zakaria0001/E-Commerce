@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<title>user login</title>
+</head>
+<body>
+	<div class="align">
+		<img class="logo" src="img/logo.svg">
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="login" class="selected" >Login</a>
+				
+				<div></div>
+			</div>
+			<div class="tabs">
+
+					<form class="login_form" method="post" name="form" onsubmit="return validated()"><div class="inputs">
+						<div class="input">
+							<input name="email"placeholder="Username" type="text">
+							<img src="img/user.svg">
+							<div id ="email_error">Error</div>
+						</div>
+						<div></div>
+						<div class="input">
+							<input name="password" placeholder="Password" type="password">
+							<img src="img/pass.svg">
+							<div id ="pass_error">Error</div>
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Remember me</span>
+						</label>
+					</div>
+                        <button>Login</button>
+					
+					
+				</form>
+				
+				
+			</div>
+		</div>
+	</div>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>

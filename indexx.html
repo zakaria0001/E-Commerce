@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="align">
+        <img class="logo" src="img/logo.svg">
+        <div class="card">
+            <div class="head">
+                <div></div>
+                <a id="login" class="selected" href=#login>Login</a>
+
+                <div></div>
+            </div>
+            <div class="tabs">
+
+                <form class="login_form" action="/indexx.html"method="post" name="form" onsubmit="return validated()">
+                 
+                        <div class="input">
+                            <input name="email"  type="text">
+                            <img src="img/user.svg">
+                             <div id="email_error">Erreur!</div>
+                        </div>
+                       
+                        <div></div>
+                        <div class="input">
+                            <input name="password"  type="password">
+                            <img src="img/pass.svg">
+                            <div id="pass_error">Erreur!</div>
+                            
+                        </div>
+
+
+                   
+                        <label class="checkbox">
+                            <input type="checkbox">
+                            <span>Enregistrer Le Mot De Passe</span>
+                        </label>
+                        <a href="indexx.html">
+                    <button  >Se Connecter</button>
+</a>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

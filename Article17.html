@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width:device-width,initial-scale=1.0">
+    <title>Article Indisponible </title>
+    <link rel="stylesheet" href="Article17.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<!--Barre Haut-->
+<div class="containers">
+    <a href="index.html">
+        <button class="title">Site</button></a>
+    <div class="search">
+
+        <form id="tfnewsearch" method="get" action="http://www.google.com">
+            <input type="text" class="tftextinput" name="q" size="20" maxlength="120">
+        </form>
+    </div>
+
+    <input type="button" class="tfbutton" method="get" action="http://www.google.com">
+    <!--Buttons-->
+    <div class="buttons">
+        <a href="screen.html">
+            <button class="add">Ajouter Un Produit </button>
+
+        </a>
+
+        <button class="profile">Mon Profil</button>
+
+        <button class="logout"></button>
+    </div>
+
+</div>
+
+<div class="alert hide">
+
+    <span class="msg">Nom : Nabil</span>
+    <span class="msg">Prénom : Zakaria</span>
+    <span class="msg">CIN : *******</span>
+    <span class="msg">Adresse Mail : zakarianabil68@gmail.com</span>
+    <span class="msg">Ville : Casablanca</span>
+
+    <div class="close-btn">
+        <span class="fas fa-times"></span>
+    </div>
+</div>
+
+<script>
+    $('.profile').click(function() {
+        $('.alert').addClass("show");
+        $('.alert').removeClass("hide");
+        $('.alert').addClass("showAlert");
+
+    });
+    $('.close-btn').click(function() {
+        $('.alert').removeClass("show");
+        $('.alert').addClass("hide");
+    });
+
+</script>
+<div class="product">
+    <div class="photo-prod">
+        <div class="photo-prods">
+           
+
+        </div>
+        <!--butttons--->
+
+    </div>
+
+
+    <!--infos produit-->
+    <div class="infoprod">
+        <h4 class="prodname">Produit Indisponible</h4>
+
+            
+                
+                    
+                            </div>
+    <div>
+        
+    </div>
+
+    </div>
+ 
+
+
+
+
+<!--BOTTOM OF THE SITE-->
+<div class="infos">
+    <div class="about">
+        <h4 class="abouts">A Propos</h4>
+    </div>
+    <a href="screen.html">
+        <button class="addprod">Ajouter Un Produit</button></a>
+
+    <button class="profiles"></button>
+    <div class="searchbar">
+        <form id="tfnewsearch" method="get" action="http://www.google.com">
+            <input type="text" class="textinput" name="q" size="20" maxlength="120">
+        </form>
+
+
+        <button class="buttonss" type="button" class="buttonss" method="get" action="http://www.google.com"> Cherchez !</button>
+    </div>
+
+    <div>
+        <h1 class="imagess">Localisation</h1>
+
+        <img class="image" src="Files/images.jpeg" alt="HTML5 Icon">
+    </div>
+    <h1 class="imageds">Chercher</h1>
+
+</div>
+
+
+<div class="contact">
+
+    <div class="social">
+        <h4 class="aboutss">Contacts</h4>
+        <a href="www.facebook.com">
+            <button class="logouts"></button>
+        </a>
+        <a href="www.instagram.com">
+            <button class="logouts1"></button>
+        </a>
+
+                <button class="wtsp"></button>
+        <div class="num">
+
+    <span class="msg">0522551517</span>
+    
+    
+</div>
+    </div>
+<script>
+    $('.wtsp').click(function() {
+        $('.num').addClass("msg");
+   $('.num').removeClass("hide");
+      $('.num').addClass("showAlert");
+    });
+
+
+</script>
+
+</div>
+
+
+
+</html>

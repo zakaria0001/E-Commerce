@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="shortcut icon" type="image/x-icon" href="Files/favicon.ico"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width:device-width,initial-scale=1.0">
+    <title> Pack 10 Bavettes</title>
+    <link rel="stylesheet" href="Article1.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<!--Barre Haut-->
+<div class="containers">
+    <a href="index.html">
+        <button class="title"></button></a>
+    <div class="search">
+
+        <form id="tfnewsearch" method="get" action="http://www.google.com">
+            <input type="text" class="tftextinput" name="q" size="20" maxlength="120">
+        </form>
+    </div>
+
+    <input type="button" class="tfbutton" method="get" action="http://www.google.com">
+    <!--Buttons-->
+    <div class="buttons">
+        <a href="screen.html">
+            <button class="add">Ajouter Un Produit </button>
+
+        </a>
+
+        <button class="profile">Mon Profil</button>
+
+        <button class="logout"></button>
+    </div>
+
+</div>
+
+<div class="alert hide">
+
+    <span class="msg">Nom : Nabil</span>
+    <span class="msg">Prénom : Zakaria</span>
+    <span class="msg">CIN : *****</span>
+    <span class="msg">Adresse Mail : zakarianabil68@gmail.com</span>
+    <span class="msg">Ville : Casablanca</span>
+
+    <div class="close-btn">
+        <span class="fas fa-times"></span>
+    </div>
+</div>
+
+<script>
+    $('.profile').click(function() {
+        $('.alert').addClass("show");
+        $('.alert').removeClass("hide");
+        $('.alert').addClass("showAlert");
+
+    });
+    $('.close-btn').click(function() {
+        $('.alert').removeClass("show");
+        $('.alert').addClass("hide");
+    });
+
+</script>
+<div class="product">
+    <div class="photo-prod">
+        <div class="photo-prods">
+            <img class="pic" src="Files/default.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+            <img class="pics" src="Files/photo.jpeg" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+        </div>
+        <!--butttons--->
+        <button class="button1">J'Achète</button>
+        <button class="button2">Réserver A Plus Tard</button>
+    </div>
+
+
+    <!--infos produit-->
+    <div class="infoprod">
+        <h4 class="prodname">Pack 10 Bavettes</h4>
+        <h4 class="prodnames">5,00 Dhs</h4>
+        <h3 class="prodnamess">Quantité :</h3>
+        <input type="number" value="1"
+           class="quant">
+            
+                
+                    
+                            </div>
+    <div>
+        <p class="desc">Masque / Bavette 3 plis de haute qualité en tissu lavable et réutilisable. Fabriqué à partir du tissu fabriqué par la société FINOTEX et dont les références sont validés par IMANOR.
+
+            Une conception 3 plis pour un confort optimal et une utilisation prolongée.
+
+            Boucle d’oreille douce en élastique très extensible, doux et confortable à porter pour une utilisation prolongée.
+
+            Certifié par l'Institut Marocaine de Normalisation (IMANOR) selon la Norme NM/ST 21.5.201 mise en place spécialement pour les masques de protection contre le Coronavirus.
+
+            Fabriqués en tissus haute qualité antibactérien pour prévenir la projection des gouttelettes
+
+            Lavable à 60°C, il suffit de le mettre en machine 30 minutes minimum à 60°C cycle coton avec votre lessive habituelle.
+
+            Vous pouvez également le mettre au four à 75°C pendant 30 minutes.
+
+            L'usage du micro-ondes n'est pas recommandé.</p>
+    </div>
+
+    <!--avis--->
+    <div class="avis">
+        <h2 class="avis-">Avis Des Utilisateurs :</h2>
+        <button class="avis--"> Voir Plus ></button>
+    </div>
+    <div class="rendu-avis">
+
+
+        <h5 class="eval">ÉVALUATIONS (22)</h5>
+        <h5 class="comm">Commentaires(4)</h5>
+
+    </div>
+    <div class="bckgrnd">
+        <div class="note">
+            <h4 class="note">4 / 5</h4>
+
+        </div>
+
+        <div>
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <h4 class="nbravis">360 Avis</h4>
+        </div>
+    </div>
+    <div class="tot">
+        <div>
+            <div class="stage5">
+                <h5 class="num5">5</h5>
+                <img class="etoiles" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+                <h5 class="nbr">(280)</h5>
+            </div>
+
+        </div>
+
+        <div>
+            <div class="stage4">
+                <h5 class="num5">4</h5>
+                <img class="etoiles" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+                <h5 class="nbr">(30)</h5>
+            </div>
+
+        </div>
+        <div>
+            <div class="stage4">
+                <h5 class="num5">3</h5>
+                <img class="etoiles" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+                <h5 class="nbr">(40)</h5>
+            </div>
+
+        </div>
+        <div>
+            <div class="stage4">
+                <h5 class="num5">2</h5>
+                <img class="etoiles" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+                <h5 class="nbr">(7)</h5>
+            </div>
+
+        </div>
+        <div>
+            <div class="stage4">
+                <h5 class="num5">1</h5>
+                <img class="etoiles" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+                <h5 class="nbr">(2)</h5>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div>
+        <div class="comm1">
+
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+
+            <h4 class="grandavis">Produit De Très Bonne Qualité</h4>
+            <h5 class="grandavis">Rien A Dire</h5>
+            <h5 class="grandaavis">Le 05-06-2020 Par Larbi</h5>
+
+        </div>
+
+    </div>
+    <div>
+        <div class="comm2">
+
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+
+
+            <h4 class="grandavis">Efficace Pour Cette Période</h4>
+            <h5 class="grandavis">Je n'ai Rencontré Aucun Problème</h5>
+            <h5 class="grandaavis">Le 19-07-2020 Par Paul</h5>
+
+        </div>
+
+    </div>
+    <div>
+        <div class="comm2">
+
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+            <img class="etoile" src="files/icons8-%C3%A9toile-30.png" alt="HTML5 Icon">
+
+
+
+
+            <h4 class="grandavis">Pas Très Confortable</h4>
+            <h5 class="grandavis">Fais Mal Au Oreilles Apres Une Longue Utilisation</h5>
+            <h5 class="grandaavis">Le 28-07-2020 Par Sara</h5>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- BONNE AFFAIRES      -->
+    <div class="bonneaffaire">
+    <h3 class="test">Produits Bon Plan !</h3>
+    <a href="Article17.html">
+    <button class=prod3>
+        <img src="Files/EGEO_NICOLINE-250x250.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+        <h4 class="log">Fauteuils</h4>
+        <del class="prix3">4500,00 Dhs</del>
+        <h4 class="prixapres">3500,00 Dhs</h4>
+    </button>
+    </a>
+    <a href="Article18.html">
+    <button class=prod3>
+        <img class="log" src="Files/samsung-t5-1to.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+        <h4 class="log">Samsung T5 2TO </h4>
+        <del class="prix3">4700,00 Dhs</del>
+        <h4 class="prixapres">3000,00 Dhs</h4>
+    </button>
+    </a>
+    <a href="Article19.html">
+    <button class=prod3>
+        <img src="Files/logitech-g29-driving-force-shifter-ps3-ps4.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+        <h4 class="log">Logitech G29 </h4>
+        <del class="prix3">3500,00 Dhs</del>
+        <h4 class="prixapres">2000,00 Dhs</h4>
+    </button>
+    </a>
+<a href="Article20.html">
+    <button class=prod3>
+        <img class="log" src="Files/gta-v-ps4.jpg" alt="HTML5 Icon" style="width:128px;height:128px;">
+        <h4 class="logi">GTA V PS4 </h4>
+        <del class="prix3">420,00 Dhs</del>
+        <h4 class="prixapres">300,00 Dhs</h4>
+    </button>
+    </a>
+</div>
+</div>
+<!--BOTTOM OF THE SITE-->
+<div class="infos">
+    <div class="about">
+        <h4 class="abouts">A Propos</h4>
+    </div>
+    <a href="screen.html">
+        <button class="addprod">Ajouter Un Produit</button></a>
+
+    <button class="profiles"></button>
+    <div class="searchbar">
+        <form id="tfnewsearch" method="get" action="http://www.google.com">
+            <input type="text" class="textinput" name="q" size="20" maxlength="120">
+        </form>
+
+
+        <button class="buttonss" type="button" class="buttonss" method="get" action="http://www.google.com"> Cherchez !</button>
+    </div>
+
+    <div>
+        <h1 class="imagess">Localisation</h1>
+
+        <img class="image" src="Files/images.jpeg" alt="HTML5 Icon">
+    </div>
+    <h1 class="imageds">Chercher</h1>
+
+</div>
+
+<div class="contact">
+
+    <div class="social">
+        <h4 class="aboutss">Contacts</h4>
+        <a href="www.facebook.com">
+            <button class="logouts"></button>
+        </a>
+        <a href="www.instagram.com">
+            <button class="logouts1"></button>
+        </a>
+        <button class="wtsp"></button>
+        <div class="num">
+
+    <span class="msg">0522551517</span>
+    
+    
+</div>
+    </div>
+<script>
+    $('.wtsp').click(function() {
+        $('.num').addClass("msg");
+   $('.num').removeClass("hide");
+      $('.num').addClass("showAlert");
+    });
+
+
+</script>
+
+
+</div>
+
+
+
+</html>
